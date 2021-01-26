@@ -1,7 +1,6 @@
 h1{
+  text-decoration: underline purple;
   color: blue;
-  border-bottom: solid 3px purple;
-  width: 575px;
 }
 
 #introduction {
