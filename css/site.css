@@ -1,0 +1,31 @@
+h1{
+  color: blue;
+  border-bottom: solid 3px purple;
+  width: 575px;
+}
+
+#introduction {
+  color: purple;
+  background-color: #C0E8D5;
+  width: 710px;
+  min-height: 200px;
+  padding: 10px;
+  margin: 10px;
+  border: dotted 5px pink;
+  font-size: 20px;
+}
+
+#labs {
+  color: purple;
+  background-color: #C0E8D5;
+  width: 710px;
+  min-height: 200px;
+  padding: 10px;
+  margin: 10px;
+  border: dotted 5px pink;
+  font-size: 20px;
+}
+
+html {
+  background-color: #fbceb1;
+}
