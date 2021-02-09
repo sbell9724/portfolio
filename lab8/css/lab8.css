@@ -1,0 +1,11 @@
+#details {
+  border: solid 3px purple;
+  width: 990px;
+  padding: 5px;
+  color: blue;
+  background-color: pink;
+}
+
+h1 {
+  text-decoration: underline purple wavy;
+}
