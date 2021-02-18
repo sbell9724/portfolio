@@ -1,4 +1,16 @@
+#details {
+  border: solid 3px purple;
+  width: 990px;
+  padding: 5px;
+  color: blue;
+  background-color: pink;
+}
+
+h2 {
+  text-decoration: underline purple dotted;
+}
+
 .special {
-  background-color: green;
-  color: red;
+  background-color: blue;
+  color: purple;
 }
