@@ -1,3 +1,7 @@
+html {
+  background-color: #fbceb1;
+}
+
 #details {
   border: solid 3px purple;
   width: 990px;
@@ -13,8 +17,4 @@ h2 {
 .special {
   background-color: blue;
   color: purple;
-}
-
-html {
-  background-color: #fbceb1;
 }
