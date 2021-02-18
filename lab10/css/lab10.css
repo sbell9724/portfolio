@@ -15,3 +15,7 @@ h2 {
   border: dotted 3px pink;
   width: 990px;
 }
+
+html {
+  background-color: #fbceb1;
+}
