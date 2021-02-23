@@ -1,5 +1,7 @@
 /*
-yes
+*Author: Solomon Bell <somibell@ucsc.edu>
+*Created: 19 February
+*License: Public Domain
 */
 
 //when given number, returns hogwarts house
