@@ -3,6 +3,7 @@
 *Created: 17 February
 *License: Public Domain
 */
+debugger
 
 var buttonEl = document.getElementById("my-button");
 console.log("Button Element:" + buttonEl);
