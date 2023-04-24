@@ -3,40 +3,102 @@
   src: url(Signika/static/Signika-Medium.tff);
 }*/
 
-html {
-  background-color: #fbceb1;
+/*Sitewide formatting*/
+  html {
+    background-color: mediumslateblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  h2{
+    font-size: 20px;
+    padding: 15px;
+    margin: 20px;
+    color: whitesmoke;
+    border: inset 5px orchid;
+  }
+
+  img {
+    margin: 20px;
+    border: inset 5px pink;
+  }
+/*End of sitewide formatting*/
+
+
+/*Dropdown Formatting*/
+  /*Dropdown button*/
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  /* Style dropdown button */
+  .dropbtn {
+    right: 0;
+    margin-top: -20px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: whitesmoke;
+    background-color: blueviolet;
+    border: outset 3px midnightblue;
+  }
+
+  /* Add an orchid background color to navbar links on hover */
+  .dropdown:hover .dropbtn {
+    background-color: orchid;
+  }
+
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    right: 0;
+    z-index: 1;
+    width: 120px;
+    display: none;
+    position: absolute;
+    background-color: blueviolet;
+    box-shadow: 0px 8px 16px 0px midnightblue;
+  }
+
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: whitesmoke; 
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: orchid;
+  }
+
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+    border: inset 3px blueviolet;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+/*End of Dropdown Formatting*/
+
+/*Link Formatting*/
+a:link {
+  text-decoration: none;
 }
 
-body {
-  text-align: center;
+a:visited {
+  text-decoration: none;
+  color: whitesmoke;
 }
 
-h1{
-  color: blue;
+a:hover {
+  text-decoration: none;
+  color: midnightblue;
 }
 
-img {
-  border: inset 5px pink;
+a:active {
+  text-decoration: none;
 }
-
-#introduction {
-  color: purple;
-  background-color: #C0E8D5;
-  width: 50%;
-  min-height: 200px;
-  padding: 20px;
-  margin: 20px;
-  border: inset 5px pink;
-  font-size: 20px;
-}
-
-#Tabs {
-  color: purple;
-  background-color: #C0E8D5;
-  width: 50%;
-  min-height: 200px;
-  padding: 20px;
-  margin: 20px;
-  border: inset 5px pink;
-  font-size: 20px;
-}
+/*End Link Formatting*/
